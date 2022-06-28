@@ -1,0 +1,139 @@
+vim-autopilot-lesson-plan, ma-autopilot-lesson-plan, vim-autopilot-teacher-stub {
+  padding: 24px; 
+  width: 440px; 
+  background-color: #fff; 
+  border-radius: 12px;
+}
+
+.stubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 148px;
+  min-height: 132px;
+  background-size: 132px 132px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-image: url("../images/teacher-stub.png")
+}
+
+.stubTitle {
+  margin: 0 !important; 
+  margin-bottom: 8px;
+  padding: 0 !important; 
+  padding-right: 115px !important;
+  font-size: 24px !important; 
+  line-height: 32px !important; 
+  font-weight: 400 !important; 
+  font-family: StratosSkyeng !important; 
+  color: #091E2A !important; 
+  font-style: normal !important;
+  text-align: left !important;
+}
+
+.stubSubtitle {
+  margin: 0 !important; 
+  padding: 0 !important; 
+  padding-right: 80px !important;
+  font-size: 14px !important; 
+  line-height: 18px !important; 
+  font-weight: 400 !important; 
+  font-family: StratosSkyeng !important; 
+  color: #091E2AA3 !important; 
+  font-style: normal !important;
+  text-align: left !important;
+}
+
+.mainContainer {
+  display: flex;
+  width: 1450px;
+}
+
+.contentContainer {
+  max-width: 680px;
+  background-color: #fff;
+}
+
+.planContainer {
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: center; 
+  padding: 0;  
+  width: 340px;
+  background-color: #F1F5FB;
+}
+
+.planContainer_desktop {
+  width: 720px;
+  padding-top: 30px; 
+  padding-bottom: 30px; 
+}
+
+.containerTitle {
+  margin: 0 !important; 
+  padding: 0 !important; 
+  font-size: 20px !important; 
+  line-height: 30px !important; 
+  font-family: StratosSkyeng !important; 
+  color: #091E2A !important; 
+  font-style: medium !important;
+  text-align: left !important;
+}
+
+.planItem {
+  margin: 0; 
+  padding: 0; 
+  padding-left: 32px;  
+  background-position: left 2px top 2px; 
+  background-size: 20px 20px; 
+  background-repeat: no-repeat;
+}
+
+.img-checked {
+  background-image: url("../images/Check.png");
+}
+
+.img-empty {
+  background-image: url("../images/empty.png");
+}
+
+.planTitle {
+  margin: 0 !important; 
+  padding: 0 !important; 
+  font-size: 16px !important; 
+  line-height: 22px !important; 
+  font-family: StratosSkyeng !important; 
+  color: #091E2A !important; 
+  font-style: regular !important;
+  text-align: left !important;
+}
+
+.planTitle_current-color {
+  color: #0070AB !important;
+}
+
+.planTitle_next-color {
+  color: #04121B7A !important;
+}
+
+.planSubtitle {
+  margin: 0 !important; 
+  padding: 0 !important; 
+  font-size: 14px !important; 
+  line-height: 18px !important; 
+  font-family: StratosSkyeng !important; 
+  color: #04121B7A !important; 
+  font-style: regular !important;
+}
+
+.sideImg {
+  width: 340px;
+}
+
+.sideImg_desktop {
+  width: 600px;
+}
